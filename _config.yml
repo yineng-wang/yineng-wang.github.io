@@ -108,6 +108,7 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : "light"
+    minimal_mistakes_skin: default
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
