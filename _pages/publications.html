@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+
+
+{% assign pubs = site.publications | sort: "date" | reverse %}
+
+
+<!-- <h2 class="pub-section">All publications</h2> -->
+
+{% assign current_year = "" %}
+{% for post in pubs %}
+  {% assign y = post.date | date: "%Y" %}
+  {% if y != current_year %}
+    {% assign current_year = y %}
+    <h3 class="pub-year">{{ current_year }}</h3>
+  {% endif %}
+  {% include publication-listitem.html post=post %}
+{% endfor %}

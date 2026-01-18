@@ -1,0 +1,42 @@
+{% include base_path %}
+
+<article class="pub-showcase pub-showcase--top">
+  {% if post.image %}
+    <a class="pub-showcase__thumb pub-showcase__thumb--top" href="{{ base_path }}{{ post.url }}">
+      <img src="{{ base_path }}{{ post.image }}" alt="Thumbnail for {{ post.title }}">
+    </a>
+  {% endif %}
+
+  <div class="pub-showcase__body">
+    <h3 class="pub-showcase__title">
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    </h3>
+
+    {% if post.authors %}
+    <div class="pub-showcase__authors"
+         data-authors="{{ post.authors }}"
+         data-year="{{ post.date | date: '%Y' }}">
+      {{ post.authors }}
+    </div>
+    {% endif %}
+
+    <div class="pub-showcase__journal">
+      {% if post.venue or post.paperurl %}
+        <span class="pub-pill pub-pill--venue pub-pill--venuewrap">
+          {% if post.venue %}
+            <span class="pub-venue-text">{{ post.venue }}</span>
+          {% endif %}
+
+          {% if post.paperurl %}
+            <a class="pub-venue-link"
+               href="{{ post.paperurl }}"
+               target="_blank"
+               rel="noopener">
+              Link
+            </a>
+          {% endif %}
+        </span>
+      {% endif %}
+    </div>
+  </div>
+</article>
