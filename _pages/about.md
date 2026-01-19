@@ -19,7 +19,7 @@ I am currently a **Research Assistant Professor (RAP)** in the <a href='https://
 
 * Ph.D. in Management Science and Engineering (2019 -- 2024), Department of Industrial Engineering, Tsinghua University
 
-* B.S. in Industrial Engineering (2015 -- 2029), Department of Industrial Engineering, Tsinghua University
+* B.S. in Industrial Engineering (2015 -- 2019), Department of Industrial Engineering, Tsinghua University
 
 
 ## Selected Publications
