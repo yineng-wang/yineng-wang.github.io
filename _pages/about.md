@@ -9,7 +9,7 @@ redirect_from:
 
 I am currently a **Research Assistant Professor (RAP)** in the <a href='https://www.polyu.edu.hk/fb/'>**Faculty of Business**</a> at the Hong Kong Polytechnic University. Prior to this, I completed a postdoctoral fellowship in the <a href='https://www.dase.hku.hk/'>**Department of Data and Systems Engineering**</a> at the University of Hong Kong under the supervision of Professor <a href='https://www.dase.hku.hk/people/max-z-j-shen'>**Zuo-Jun Max Shen**</a>. I received my Ph.D. in Management Science and Engineering from Tsinghua University, advised by Professor <a href='https://www.ie.tsinghua.edu.cn/eng/info/1051/1028.htm'>**Fang He**</a>. I also hold a B.S. in Industrial Engineering, along with a minor in Internet Finance and Entrepreneurship from the PBC School of Finance, both from Tsinghua University. My research aims to integrate optimization, economics, and game theory to address the operational challenges faced by mobility systems.
 
-I am looking for remote / part-time interns and research assistants. If you have interests in collaborating with me, please directly contact me at <a href='mailto:yineng.wang@polyu.edu.hk'>**yineng.wang@polyu.edu.hk**</a>.
+**I am looking for remote / part-time interns and research assistants**. If you have interests in collaborating with me, please directly contact me at <a href='mailto:yineng.wang@polyu.edu.hk'>**yineng.wang@polyu.edu.hk**</a>.
 
 ## Academic Positions
 
