@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const formattedAuthors = raw
       .split(",")
       .map(name => {
+        // Preserve the requested full display name in publication cards.
+        if (name.trim() === "Zuo-Jun Max Shen") return "Zuo-Jun Max Shen";
         const parts = name.trim().split(/\s+/);
         if (parts.length === 1) return parts[0];
 
